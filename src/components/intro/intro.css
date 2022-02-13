@@ -59,10 +59,13 @@
 }
 
 .i-title-item {
+  background: linear-gradient(to right, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: #59b256;
   display: flex;
   align-items: center;
 }

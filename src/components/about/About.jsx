@@ -14,7 +14,7 @@ const About = () => {
        delay: 100
     });
     ScrollReveal().reveal('.a-left', { delay: 0, origin: 'bottom' });
-    ScrollReveal().reveal('.a-right', { delay: 0, origin: 'right' });
+    ScrollReveal().reveal('.a-right', { delay: 0, origin: 'bottom' });
     
   },[])
   
