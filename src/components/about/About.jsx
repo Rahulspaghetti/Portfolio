@@ -3,10 +3,21 @@ import Me from "../../img/me.png"
 import ScrollReveal from 'scrollreveal'
 import { useEffect } from "react";
 import React from "react";
+import gsap from "gsap";
 
 const About = () => {
   
   useEffect(()=>{
+    
+    gsap.to(".a", {
+      backgroundPosition: `50% ${200 / 2}px`,
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".a",
+        scrub: true
+      }
+    });
+
     ScrollReveal({
       reset: false,
       distance: '100px',
@@ -21,7 +32,7 @@ const About = () => {
   return (
     <div className="a">
       <div className="a-left">
-        <div className="a-card bg">
+        <div className="a-card">
           <img
             src={Me}
             alt=""

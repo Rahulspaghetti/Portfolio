@@ -1,6 +1,5 @@
 import "./intro.css";
 import ScrollReveal from 'scrollreveal'
-import Me from "../../img/me.png";
 import { useEffect } from "react";
 
 const Intro = () => {
@@ -28,10 +27,9 @@ const Intro = () => {
               <div className="i-title-item">Full Stack Developer</div>
               <div className="i-title-item">Backend Developer</div>
               <div className="i-title-item">Singer-Songwritter</div>
-              <div className="i-title-item">Freelancer</div>
             </div>
           </div>
-          <p className="i-desc">
+          <p className="i-desc" style={{paddingTop: '10px'}}>
             I do everything that i can do, 
             specializing in creating stylish, modern websites, web services, sing, dance and pretty much a an all rounder (Kinda cringe but true).
           </p>
