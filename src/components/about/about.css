@@ -1,7 +1,8 @@
 .a {
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
+  background-color: black;
 }
 
 .a-left {
@@ -54,6 +55,8 @@
 
 .a-desc{
     font-weight: 300;
+    padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 .a-award{
