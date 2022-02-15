@@ -1,0 +1,78 @@
+.NavbarItems {
+  background: black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.itemgradient {  
+  background: linear-gradient(to right, #fed373 1%, #f15245 7%, #d92e7f 60%, #9b36b7 8%, #515ecf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: flex;
+  grid-template-columns: repeat (5, auto);
+  grid-gap: 10%;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: center;
+}
+/* 
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 5ren 1rem;
+  transition: background-position 275ms ease;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  background-position: 100%;
+}
+
+.nav-links:hover {
+  background: linear-gradient(to right, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  transition: background-position 275ms ease;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+} */
+
+.nav-links {
+  position: relative;
+  display: inline-block;
+  padding: 5ren 1rem;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(to right, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 2000ms ease;
+}
+
+.nav-links:hover {
+  background-position: 0 100%;
+  -webkit-text-fill-color: transparent;
+}
