@@ -1,10 +1,9 @@
 import "./about.css";
 import Me from "../../img/me.png"
-import award from "../../img/spaghetti.png"
 import ScrollReveal from 'scrollreveal'
 import { useEffect } from "react";
 import React from "react";
-import gsap from "gsap";
+// import gsap from "gsap";
 
 const About = () => {
   
